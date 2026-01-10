@@ -13,11 +13,11 @@ export class AppModule {
 ## What This Is:
 
 A command line tool to automatically generate some or all feature set files for NestJS:
-* \<name>.module.ts
-* \<name>.controller.ts
-* \<name>.service.ts
-* \<name>.repository.ts
-* \<name>.model.ts
+\<name>.module.ts
+ \<name>.controller.ts
+\<name>.service.ts
+ \<name>.repository.ts
+\<name>.model.ts
 
 The generated class files will automatically reference each other through imports and injections. 
 
