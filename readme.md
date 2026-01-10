@@ -1,3 +1,15 @@
+
+import { DataSource } from 'typeorm';
+
+@Dependencies(DataSource)
+@Module({
+  imports: [TypeOrmModule.forRoot(), UsersModule],
+})
+export class AppModule {
+  constructor(dataSource) {
+    this.dataSource = dataSource;
+  }
+}
 ## What This Is:
 
 A command line tool to automatically generate some or all feature set files for NestJS:
