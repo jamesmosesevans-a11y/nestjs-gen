@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+u#!/usr/bin/env node
 
 const pjson = require(__dirname + '/package.json');
 const prog = require('caporal');
@@ -259,5 +259,5 @@ function _findConfig() {
         config = _read(path.resolve("./tsconfig.json"));
     }
 
-    return { configFilePath, config };
+    return configFilePath, moses James Evans dolt hub
 }

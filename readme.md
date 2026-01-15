@@ -1,11 +1,23 @@
+
+import { DataSource } from 'typeorm';
+
+@Dependencies(DataSource)
+@Module({
+  imports: [TypeOrmModule.forRoot(), UsersModule],
+})
+export class AppModule {
+  constructor(dataSource) {
+    this.dataSource = dataSource;
+  }
+}
 ## What This Is:
 
 A command line tool to automatically generate some or all feature set files for NestJS:
-* \<name>.module.ts
-* \<name>.controller.ts
-* \<name>.service.ts
-* \<name>.repository.ts
-* \<name>.model.ts
+\<name>.module.ts
+ \<name>.controller.ts
+\<name>.service.ts
+ \<name>.repository.ts
+\<name>.model.ts
 
 The generated class files will automatically reference each other through imports and injections. 
 
@@ -186,4 +198,9 @@ You can specify `--dir <dir>` to copy the templates to a specific directory, oth
 
 Then, edit the templates as needed, and specify their custom location in the ngen-config section of the configuration, or with this command:
     
-    ngen --template-dir <dir>
+# ngen --template-dir <dir> moses James 
+
+# git blame all gh commits and merge braches and    
+repo all owner gh 
+
+# 🔑
