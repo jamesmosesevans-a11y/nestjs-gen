@@ -198,4 +198,9 @@ You can specify `--dir <dir>` to copy the templates to a specific directory, oth
 
 Then, edit the templates as needed, and specify their custom location in the ngen-config section of the configuration, or with this command:
     
-    ngen --template-dir <dir> moses James evans
+# ngen --template-dir <dir> moses James 
+
+# git blame all gh commits and merge braches and    
+repo all owner gh 
+
+#
